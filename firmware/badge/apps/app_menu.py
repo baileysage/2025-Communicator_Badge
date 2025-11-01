@@ -45,8 +45,9 @@ class AppMenu(BaseApp):
         self.page = Page()
         self.page.create_content()
 
-        # Load random logo
-        self.add_logo("images/logos/" + str(random.randrange(1, 102)) + ".png")
+        # Load ~~~random~~~ Stone Path logo
+        # str(random.randrange(1, 102))
+        self.add_logo("images/logos/" + "103.png")
 
         # Header message
         self.add_message("SUPERCON 2025\nPasadena, CA")
